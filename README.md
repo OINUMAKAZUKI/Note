@@ -9,13 +9,13 @@ _iii_
 
 ここが'重要'
 
-'''c++
-int main(void) {
-  String sample = "SAMPLE";
-  //SAMPLEを表示しました
-  printf(sample);
-}
-'''
+  '''c++
+  int main(void) {
+    String sample = "SAMPLE";
+    //SAMPLEを表示しました
+    printf(sample);
+  }
+  '''
 
 http://www.google.com/
 インライン<http://www.google.com/>に埋め込みます。
