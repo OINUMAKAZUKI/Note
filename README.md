@@ -9,7 +9,7 @@ _iii_
 
 ここが'重要'
 
-'''C++
+'''c++
 int main(void) {
   String sample = "SAMPLE";
   //SAMPLEを表示しました
