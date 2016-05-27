@@ -6,12 +6,11 @@
 ### readme書き方の練習
 
 ```ruby
+
 # シンタックスハイライト機能もあります
-begin=
-  ```ruby 
-  ``` 
-  # ``` ruby で囲うとRuby のコードを見やすく表示することができます（ruby の部分は他の言語でも可)
-=end
+```ruby 
+``` 
+# ``` ruby で囲うとRuby のコードを見やすく表示することができます（ruby の部分は他の言語でも可)
 def code
   puts "hello world!"
 end
