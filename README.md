@@ -24,6 +24,7 @@
 ### readme書き方の練習
 - 実際はコードを参照してください
 ```
+
 ```ruby
 
 # シンタックスハイライト機能もあります
@@ -31,10 +32,11 @@ def code
   puts "hello world!"
 end
 ```
+
 ```
 
-```ruby
 
+```ruby
 # シンタックスハイライト機能もあります
 def code
   puts "hello world!"
