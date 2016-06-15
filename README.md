@@ -25,13 +25,13 @@
 - 実際はコードを参照してください
 ```
 
-```ruby
+ ```ruby
 
-# シンタックスハイライト機能もあります
-def code
-  puts "hello world!"
-end
-```
+ # シンタックスハイライト機能もあります
+ def code
+   puts "hello world!"
+ end
+ ```
 
 ```
 
