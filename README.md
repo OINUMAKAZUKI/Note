@@ -13,6 +13,7 @@ def code
 end
 ```
 
-このように様々な、実用メモを載せていきます（wiki に）
 
+http://kojika17.com/2013/01/starting-markdown.html
+  [1]: http://google.com/        "Google"
 
