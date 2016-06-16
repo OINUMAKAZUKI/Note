@@ -24,13 +24,11 @@
 ### readme書き方の練習
 - 実際はコードを参照してください
 
-```
-  ~~~ruby
-  # シンタックスハイライト機能もあります
-  def code
-    puts "hello world!"
-  end
-  ~~~
+```ruby
+# シンタックスハイライト機能もあります
+def code
+  puts "hello world!"
+end
 ```
 
 [参照1](http://kojika17.com/2013/01/starting-markdown.html)
