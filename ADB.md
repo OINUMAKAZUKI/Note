@@ -2,7 +2,7 @@
 ### Realm ファイルをアプリから取得する手順
 1. adb を入れる
 2. adb shell で中に入る
-3. run-as com.sample.app(パッケージ名) ()
+3. run-as com.sample.app(パッケージ名)
 4. ls files | grep realm で .realm ファイルの確認
 5. chmod 755 xxx.realm 権限付与
 5. pwd で現在のディレクトリーを表示、コピー
