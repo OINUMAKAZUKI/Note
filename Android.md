@@ -1,3 +1,116 @@
+## 参考
+
+- [cookpad](https://github.com/cookpad/styleguide/blob/master/java.ja.md#imports)<br>
+- [google.github.io](https://google.github.io/styleguide/javaguide.html#s2.1-file-name)<br>
+- [google.code.style](http://source.android.com/source/code-style.html)<br>
+- [k-yamada](http://qiita.com/k-yamada@github/items/08fee683b372def7e769)<br>
+
+## 目次
+
+* [命名規則](link)
+
+## Java コーディング規約
+### Java 全般ルール
+#### インポートについて
+* 不要なimport文は削除すること。
+* 可能な限り * での import 文は書かないこと。
+
+#### インデントについて
+* ブロックのインデントにはスペース4つを使うこと。
+* 関数呼び出しと引数を含んだ行の折り返しは、スペース8つでインデントすること。
+
+#### 空白について
+* 行末に空白を置いてはならない。
+* カンマ、セミコロン、キャスト演算子の直後には空白を置くこと。
+
+#### 空行について
+* ファイルの末尾に空行を置いてはならない。
+
+#### 改行について
+* ファイルの末尾は空白を置いてはならない。
+* 行の途中で改行するときには演算子の直前で改行すること。
+
+#### 中括弧について
+* 直前にトークンがある場合は中括弧で行を始めてならない。中括弧はそのトークンと同じ行に置くようにすること。
+
+```java
+// ○ Good
+class MyClass {
+    int func() {
+        if (something) {
+            // ...
+        } else if (somethingElse) {
+            // ...
+        } else {
+            // ...
+        }
+    }
+}
+
+// × Bad
+class MyClass
+{
+    int func()
+    {
+        if (something)
+        {
+            // ...
+        }
+        else if (somethingElse)
+        {
+            // ...
+        }
+        else
+        {
+            // ...
+        }
+    }
+}
+```
+
+```java
+// ○ Good
+if (condition) {
+    body();
+}
+
+// × Bad
+if (condition)
+    body();
+```
+
+#### フィールド（メンバ変数）の命名規則
+```java
+//非パブリック・非スタティックは頭にmを
+private int mPrivate
+
+//スタティックは頭にsを
+private static MyClass sSingleton;
+
+//定数は大文字と_のみ使用
+public static final int SOME_CONSTANT = 42;
+```
+
+#### 名前における頭字語 (アクロニム)
+* 頭字語や略語は単語として扱うこと。
+
+```java
+// ○ Good
+XmlHttpRequest
+getCustomerId
+class Html
+String url
+long Id
+
+// × Bad
+XMLHTTPRequest
+getCustomerID
+class HTML
+String URL
+long ID
+```
+
+
 ### Android 開発上のルール
 ##### 括弧は行の最後につける（空白も開ける）
 ```java
@@ -25,13 +138,6 @@
 　// true → 子を持ってる、false → 子を持っていない
 　private boolean hasChild = false;
 ```
-
-
-##### 定数には final を書き、定数名は大文字にする
-```java
-　public final int COUNT_MAX = "10"
-```
-
 
 ##### 基本的に変数にはprivate をつける
 `※ private をつける理由として、他人が見たときに、「この変数はこのクラス（ファイル）でしか使えないんだ！」というのをわかりやすくするため。 他のクラスに変数の値を渡したい場合は、関数をpublic 化してあげて、渡してあげる`
