@@ -3,7 +3,7 @@
 - [cookpad](https://github.com/cookpad/styleguide/blob/master/java.ja.md#imports)<br>
 - [google.github.io](https://google.github.io/styleguide/javaguide.html#s2.1-file-name)<br>
 - [google.code.style](http://source.android.com/source/code-style.html)<br>
-- [k-yamada](http://qiita.com/k-yamada@github/items/08fee683b372def7e769)<br>
+- [Android開発のマイベストプラクティス](http://qiita.com/k-yamada@github/items/08fee683b372def7e769)<br>
 
 ## 目次
 
