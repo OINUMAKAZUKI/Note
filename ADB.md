@@ -30,3 +30,8 @@ adb shell pm list packages
 ```
 adb shell am start \ -n com.sample.app/com.sample.app.MainActivity
 ```
+
+// アプリ内に入る
+```
+run-as com.sample.app(パッケージ名)
+```
