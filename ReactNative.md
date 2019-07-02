@@ -10,8 +10,8 @@ $ xcode-select --install
 Admin ユーザーに切り替える必要があるため、システム担当の方に連絡する 以下を実行して、homebrew をインストール
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-https://qiita.com/pypypyo14/items/4bf3b8bd511b6e93c9f9
 ```
+*参考: https://qiita.com/pypypyo14/items/4bf3b8bd511b6e93c9f9
 
 ### 2. nodebrew 設定
 
