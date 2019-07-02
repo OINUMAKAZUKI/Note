@@ -62,4 +62,9 @@ react-native をインストール
 $ npm install -g react-native-cli
 ```
 
+expo をインストールする
+```
+$ npm install expo-cli --global
+```
+
 *参考: https://facebook.github.io/react-native/docs/getting-started
