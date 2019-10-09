@@ -14,24 +14,24 @@
 
 
 ### よく使う adb (メモ）
-// uninstall 
+uninstall 
 ```
 adb uninstall com.sample.app
 ```
-// データ削除
+データ削除
 ```
 adb shell pm clear com.sample.app
 ```
-// パッケージ一覧
+パッケージ一覧
 ```
 adb shell pm list packages
 ```
-// 起動
+起動
 ```
 adb shell am start \ -n com.sample.app/com.sample.app.MainActivity
 ```
 
-// アプリ内に入る
+アプリ内に入る
 ```
 run-as com.sample.app(パッケージ名)
 ```
