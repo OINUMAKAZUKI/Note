@@ -10,7 +10,7 @@ fix: 家電購入
 fix: 親に挨拶  
 
 ## 一言
-・AWS がんばります！
-・PythonとFlask。
-・VueとNuxtを勉強します。
+・AWS がんばります！  
+・PythonとFlask。  
+・VueとNuxtを勉強します。  
 
