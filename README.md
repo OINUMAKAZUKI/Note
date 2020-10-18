@@ -1,5 +1,16 @@
 ## 2020年
-もう2020年ですね。。今年のテーマは革命とお引越し
+もう2020年ですね。
+
+wip: iPhone12 mini  
+wip: ダンボールの処理  
+wip: 革命
+
+fix: お引越し  
+fix: 家電購入  
+fix: 親に挨拶  
 
 ## 一言
-PythonとFlask。VueとNuxtを勉強します。がんばります。おすし。
+・AWS がんばります！
+・PythonとFlask。
+・VueとNuxtを勉強します。
+
