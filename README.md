@@ -1,7 +1,7 @@
 ## 2021年
 
-new: 籍を入れる
-new: 他物件を探す
+new: 籍を入れる  
+new: 他物件を探す  
 
 freez: iPhone12 mini  
 freez: 革命
